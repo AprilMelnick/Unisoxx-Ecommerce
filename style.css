@@ -1,0 +1,378 @@
+body {
+    font-family: "Space Mono", "Maven Pro";
+    font-style: sans-serif;
+    background-color: #FDFDFD;
+}
+html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+h1 {
+    color: #080708;
+    font-family: Space Mono;
+    font-size: 3.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 5.375rem;
+    padding: 0;
+    margin: 0;
+}
+h2 {
+    color: #080708;
+    font-family: Maven Pro;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+h3 {
+    color: #080708;
+    font-family: Maven Pro;
+    font-size: 1.75rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 0;
+    margin: 0;
+}
+h4 {
+    color: #080708;
+    font-family: Space Mono;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+    padding: 0;
+}
+label {
+    color: #080708;
+    font-family: Maven Pro;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 0;
+    margin: 0;
+}
+p {
+    color: #080708;
+    font-family: Maven Pro;
+    font-size: 1.1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.7625rem;
+    letter-spacing: 0.02125rem;
+    padding: 0;
+    margin: 0;
+}
+logo {
+    color: #080708;
+    text-align: center;
+    font-family: Space Mono;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: .1rem;
+    padding: 0;
+    margin: 0;
+}
+.main {
+    width: 100%;
+}
+.main_wool {
+    width: 100%;
+    background-image: url(assets/Wool\ BG.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.container { 
+    max-width: 90%;
+    margin: 0 auto;
+}
+.nav {
+    padding-top: 1rem;
+    margin-bottom: 5rem;
+    position: fixed;
+    background-color: rgba(253, 253, 253, .6);
+    top: 0;
+    width: 100%;
+}
+.hero {
+    max-width: 100%;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 6rem;
+    margin-bottom: 2rem;
+}
+.featured_socks {
+    width: 112%;
+    background-color: #E6E6E6;
+    margin-left: -5rem;
+}
+.box {
+    margin-bottom: 4rem;
+}
+.box:last-child {
+    margin-left: auto;
+}
+.wool_sock {
+    width: 53rem;
+    padding-top: 6rem;
+    padding-left: 4rem;
+    margin: 0;
+}
+.header_text {
+    width: 19.25rem;
+    margin-top: -30rem;
+    margin-left:auto;
+    padding: 0;
+}
+.single_row_photo {
+    width: auto;
+    height: 48rem;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin: auto;
+}
+.single_row_text {
+    width: 50rem;
+    height: 37.5rem;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: .8fr 1.5fr;
+    gap: 4rem;
+    margin: auto;
+    padding-bottom: 6rem;
+}
+.category {
+    width: 100%;
+    height: 100vh;
+    margin-bottom: 6rem;
+}
+.layout_triple {
+    width: 72rem;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem 2rem;
+    padding-top: 12rem;
+    padding-bottom: 4rem;
+    margin: auto;
+}
+.card {
+    background-color:rgba(55, 55, 55, 1);
+    padding:1rem;
+    text-align: left;
+}
+.product_layout {
+    width: 19rem;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.product {
+    width: 100%;
+    height: 100vh;
+    padding-top: 10rem;
+}
+.product_card {
+    display: flex;
+    gap: 16px;  
+    width: 53rem;
+    background-color:rgba(55, 55, 55, 1);
+    padding: 1rem;
+    text-align: left;
+    margin: auto;
+}
+.product_card_button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.layout_footer {
+    width: 100%;
+    height: 16rem;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 1rem;
+    margin: auto;
+    padding-top: 6rem;
+}
+.flexbox {
+    display: flex;
+    justify-content: space-between;
+}
+.button_secondary_cta {
+    background-color: #D67AB1;
+    border: none;
+    border-radius: 0.3125rem;
+    color: #fdfdfd;
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: Maven Pro;
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin-top: 3rem;
+}
+a.button:hover{
+    background-color: rgba(214, 122, 177, .7);
+}
+.button_card {
+    display: block;
+    width: 90%;
+    background-color: #D67AB1;
+    border: none;
+    border-radius: 0.3125rem;
+    color: #fdfdfd;
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+    font-family: Maven Pro;
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin-top: 3rem;
+}
+.button_primary_cta {
+    display: block;
+    width: 90%;
+    border: none;
+    border-radius: 0.3125rem;
+    color:#FDFDFD;
+    background-color: rgba(254, 74, 73, 1);
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+    font-family: Maven Pro;
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin-top: 3rem;
+}
+a.button_primary_cta:hover {
+    background-color: rgba(254, 74, 73, .7);
+}
+a.button_card:hover{
+    background-color: rgba(214, 122, 177, .7);
+}
+img {
+    width: 100%;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    display: inline;
+    float: left;
+    text-decoration: none;
+}
+li.a {
+    display: inline;
+    color: #080708;
+    font-family: Maven Pro;
+    font-size: 1.75rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-top: .5rem;
+    margin: 0;
+    text-decoration: none;
+}
+li.b {
+    display: inline;
+    text-decoration: none;
+    padding-right: 2rem;
+    padding-top: 1rem;
+}
+
+
+a:hover {
+    background-color: rgba(214, 122, 177, .7);
+    padding-top: 1rem;
+    border-radius: 0.3125rem;
+}
+a:visited {
+    color: #080708;
+}
+a.one:link {
+    text-decoration: none;
+    color:#080708;
+    font-family: Maven Pro;
+    font-size: 1.1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.7625rem;
+    letter-spacing: 0.02125rem;
+    border-radius: 0.3125rem;
+    margin: 0;
+    padding: 0;
+} 
+a.one:hover {
+    background-color: rgba(214, 122, 177, .7);
+    color: #FDFDFD;
+} 
+a.one:visited {
+    color: #080708;
+}
+
+a.two:link {
+    text-decoration: none;
+    color: #080708;
+    text-align: center;
+    font-family: Space Mono;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0rem;
+    padding: 0;
+    margin: 0;
+}
+
+a.two:hover {
+    background-color: rgba(214, 122, 177, .7);
+}
+a.two:visited{
+    color: #080708;
+}
+
+a.three:link {
+    display: inline;
+    color: #080708;
+    font-family: Maven Pro;
+    font-size: 1.75rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+    padding: .5rem .5rem;
+    border-radius: 0.3125rem;
+} 
+a.three:hover {
+    color:#FDFDFD;
+    background-color: rgba(214, 122, 177, .7);
+} 
+a.three:visited {
+    color: #080708;
+}
+
+body:after {
+    content:"\00a9 2023 April Melnick";
+    color: #080708;
+    font-family: Maven Pro;
+    font-size: .8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.7625rem;
+    letter-spacing: 0.02125rem;
+    padding-left: 4rem;
+}
