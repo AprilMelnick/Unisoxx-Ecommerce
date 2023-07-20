@@ -229,7 +229,7 @@ a.button_secondary_cta:hover{
 .button_card {
     display: block;
     width: 90%;
-    background-color: #D67AB1;
+    background-color: rgba(25, 100, 126, 1);
     border: none;
     border-radius: 0.3125rem;
     color: #fdfdfd;
@@ -260,7 +260,7 @@ a.button_primary_cta:hover {
     background-color: rgba(254, 74, 73, .7);
 }
 a.button_card:hover{
-    background-color: rgba(214, 122, 177, .7);
+    background-color: rgba(25, 100, 126, .7);
 }
 img {
     width: 100%;
