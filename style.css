@@ -223,7 +223,7 @@ logo {
     font-weight: 600;
     margin-top: 3rem;
 }
-a.button:hover{
+a.button_secondary_cta:hover{
     background-color: rgba(25, 100, 126, .7);
 }
 .button_card {
