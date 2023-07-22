@@ -177,7 +177,7 @@ logo {
     grid: "span12 span12 span12 span12 span12 span12 span12 span12 span12 span12 span12 span12" 1fr
     ". . . . . . . span5 span5  span5 span5 span5" 1fr
     / 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    gap: 48px 16px;
+    gap: 3rem 1rem;
     margin-top: 8rem;
 }    
 .span12 { grid-area: span12; }
