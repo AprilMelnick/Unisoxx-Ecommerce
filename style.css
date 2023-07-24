@@ -201,7 +201,7 @@ logo {
     width: 19rem;
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 1rem;
 }
 .product {
     width: 100%;
@@ -210,7 +210,7 @@ logo {
 }
 .product_card {
     display: flex;
-    gap: 16px;  
+    gap: 1rem;  
     width: 53rem;
     background-color:rgba(55, 55, 55, 1);
     padding: 1rem;
