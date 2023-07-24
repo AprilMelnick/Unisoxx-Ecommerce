@@ -250,7 +250,7 @@ logo {
     margin-top: 3rem;
 }
 a.button_secondary_cta:hover {
-    rgba(25, 100, 126, .7)
+    background-color: rgba(25, 100, 126, .7);
 }
 a.button:hover{
     background-color: rgba(214, 122, 177, .7);
