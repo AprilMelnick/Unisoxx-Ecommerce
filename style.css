@@ -236,7 +236,7 @@ logo {
     justify-content: space-between;
 }
 .button_secondary_cta {
-    background-color: #D67AB1;
+    background-color: rgba(25, 100, 126, 1);
     border: none;
     border-radius: 0.3125rem;
     color: #fdfdfd;
