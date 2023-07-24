@@ -188,7 +188,6 @@ logo {
     flex-direction: column;
     background-color: rgba(25, 100, 126, 1);
     border-radius: 0.3125rem;
-    margin: 0;
     padding: 3rem;
 }
 
@@ -310,7 +309,7 @@ li.a {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    padding-top: .5rem;
+    padding: 0;
     margin: 0;
     text-decoration: none;
 }
@@ -318,7 +317,6 @@ li.b {
     display: inline;
     text-decoration: none;
     padding-right: 2rem;
-    padding-top: 1.5rem;
 }
 
 
