@@ -175,13 +175,13 @@ logo {
 .layout_materials {
     display: grid;
     grid: "span12 span12 span12 span12 span12 span12 span12 span12 span12 span12 span12 span12" 1fr
-    ". . . . . . . span5 span5  span5 span5 span5" 1fr
+    ". . . . . . . . span4  span4 span4 span4" 1fr
     / 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     gap: 3rem 1rem;
     margin-top: 8rem;
 }    
 .span12 { grid-area: span12; }
-.span5 { grid-area: span5; }
+.span4 { grid-area: span4; }
 .about_materials {
     display: flex;
     align-items: flex-start;
@@ -236,7 +236,7 @@ logo {
     justify-content: space-between;
 }
 .button_secondary_cta {
-    background-color: rgba(25, 100, 126, 1);
+    background-color: #D67AB1;
     border: none;
     border-radius: 0.3125rem;
     color: #fdfdfd;
@@ -258,7 +258,7 @@ a.button:hover{
 .button_card {
     display: block;
     width: 90%;
-    background-color: rgba(25, 100, 126, 1);
+    background-color: #D67AB1;
     border: none;
     border-radius: 0.3125rem;
     color: #fdfdfd;
@@ -289,7 +289,7 @@ a.button_primary_cta:hover {
     background-color: rgba(254, 74, 73, .7);
 }
 a.button_card:hover{
-    background-color: rgba(25, 100, 126, .7);
+    background-color: rgba(214, 122, 177, .7);
 }
 img {
     width: 100%;
