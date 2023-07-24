@@ -258,7 +258,7 @@ a.button:hover{
 .button_card {
     display: block;
     width: 90%;
-    background-color: rgba(25, 100, 126, .1);
+    background-color: rgba(25, 100, 126, 1);
     border: none;
     border-radius: 0.3125rem;
     color: #fdfdfd;
