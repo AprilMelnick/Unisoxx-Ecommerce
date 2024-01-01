@@ -394,7 +394,7 @@ a.three:visited {
 }
 
 body:after {
-    content:"\00a9 2023 April Melnick";
+    content:"\00a9 2024 April Melnick";
     color: #080708;
     font-family: Maven Pro;
     font-size: .8rem;
